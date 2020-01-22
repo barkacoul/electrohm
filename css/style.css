@@ -261,3 +261,44 @@ section-3
     }
     
 }
+
+@media screen and (max-width: 460px)
+{
+    .contenu-site .titre
+    {
+        font-size: 1.8rem;
+        padding-left: 15%;
+    }
+    
+    .contenu-site .site-btn-1
+    {
+        margin-left: 15%;
+    }
+    
+    .contenu-site .site-btn-2
+    {
+        display: none;
+    }
+    
+    .section-2 .heading-1, .section-2 .heading-2
+    {
+        font-size: 1.7rem
+    }
+    
+    .section-2 .col-md-4
+    {
+        padding: 5%;
+        margin-left: 8%;
+    }
+    
+    .section-2 .card
+    {
+        width: 15rem;
+    }
+    
+    .section-3 col-md-5
+    {
+        padding: 0% 15%;
+    }
+    
+}
