@@ -1,0 +1,202 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap');
+
+/* Colors declarations */
+:root
+{
+    --white: #fff;
+    --black: #000;
+    --darkBrown: #280b17ff;
+    --lightViolet: #c83771ff;
+    --darkViolet: #92003b;
+    --darkGray: #808080ff;
+    --lightGray: #b3b3b3ff;
+    --antiquewhite: #faebd7;
+}
+
+/*Global Style*/
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+
+html, body
+{
+}
+
+html
+{
+    font-size: 16px;
+}
+
+body
+{
+}
+
+/* Header */
+
+.navbar-brand
+{
+    font-size: 1rem;
+}
+
+.nav-link
+{
+    font-family: 'Ubuntu';
+    font-size: 1.3rem;
+    margin: 0.9rem;
+    color: var(--lightViolet) !important;
+}
+
+.nav-link:hover
+{
+    background-color: var(--lightViolet);
+    color: var(--antiquewhite) !important;
+}
+
+.active .nav-link
+{
+    background-color: var(--lightViolet);
+    color: var(--antiquewhite) !important;
+}
+
+
+
+/* Main */
+
+.contenu-site
+{
+    background-image: url('../assets/img/cctv.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 35em;*/
+}
+
+.titre, .description
+{
+    color: var(--darkViolet);
+}
+
+.titre
+{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 2em;
+}
+
+.titre-2
+{
+    font-size: 2em;
+}
+
+.description
+{
+    font-size: 0.8em;
+    padding-left: 15%;
+}
+
+.site-btn-1, .site-btn-2
+{
+    background-color: var(--antiquewhite);
+    color: var(--lightViolet);
+    margin-top: 8%;
+    margin-bottom: 40%;
+}
+
+.site-btn-1
+{
+    margin-left: 15%;
+}
+
+.site-btn-2
+{
+}
+
+.image-break.break-1
+{
+    background-image: url('../assets/img/cctv.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20rem;
+}
+
+/* Section 1*/
+.section-1 .heading-1
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1
+{
+    font-size: 1.3rem;
+    margin-bottom: 6%;
+}
+
+/* Section 2*/
+.section-2
+{
+    margin-bottom: 8%;
+}
+
+.section-2 .heading-1
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-2 .para-1
+{
+    font-size: 1.3rem;
+    margin-bottom: 6%;
+}
+
+.section-2 .card-text, .para-1
+{
+    /*color: rgba(0,0,0.59);*/
+    color: var(--darkGray);
+}
+
+/* Section 3*/
+section-3
+{
+    margin-top: 8%;
+}
+
+.section-3 .col-md-7, .section-3 .col-md-5
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-3 a
+{    
+    /*color: var(--lightViolet);*/
+    color: #de837f;/*#faac88;*/
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.section-3 .para-1
+{
+    color: white;
+    margin-top: 7%;
+}
+/* Footer */
+
+.social
+{
+    margin: 5%;
+}
+
+.social i
+{
+    color: var(--lightViolet);
+    font-size: 1.5rem;
+}
+.copyright
+{
+    color: var(--darkBrown);
+}
